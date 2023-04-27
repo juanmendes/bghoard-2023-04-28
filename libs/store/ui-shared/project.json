@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/store/ui-shared/src",
   "prefix": "bg-hoard",
-  "tags": [],
+  "tags": ["scope:store", "type:ui"],
   "projectType": "library",
   "targets": {
     "test": {

@@ -3,7 +3,7 @@
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/store/feature-game-detail/src",
   "prefix": "bg-hoard",
-  "tags": [],
+  "tags": ["scope:store", "type:feature"],
   "projectType": "library",
   "targets": {
     "test": {
