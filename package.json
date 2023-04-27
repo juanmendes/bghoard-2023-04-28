@@ -21,6 +21,7 @@
     "@nrwl/angular": "^15.9.2",
     "@nrwl/nest": "^15.9.2",
     "@nrwl/nx-workshop": "0.4.11",
+    "@nrwl/storybook": "^15.9.2",
     "axios": "^1.0.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "~7.8.0",
