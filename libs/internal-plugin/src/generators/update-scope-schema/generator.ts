@@ -15,7 +15,7 @@ export default async function (tree: Tree) {
 
 function getScopes(projectMap: Map<string, ProjectConfiguration>) {
   const projects: any[] = Array.from(projectMap.values());
-  const allScopes: string[] = projects
+  const allScopes: string[] = projects.filter(p => !!p.tags)
     .map((project) =>
       project.tags.filter((tag: string) => tag.startsWith('scope:'))
     )

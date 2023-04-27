@@ -27,12 +27,16 @@
         "type": "list",
         "items": [
           {
+            "value": "api",
+            "label": "api"
+          },
+          {
             "value": "store",
             "label": "store"
           },
           {
-            "value": "api",
-            "label": "api"
+            "value": "videos",
+            "label": "videos"
           },
           {
             "value": "shared",
