@@ -9,7 +9,8 @@ import { Game } from '@bg-hoard/util-interface';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+  }
 
   title = 'Board Game Hoard';
   formatRating = formatRating;
