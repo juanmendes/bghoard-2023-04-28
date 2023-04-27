@@ -4,7 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nrwl/nx-workshop": "0.4.11"
+  },
   "devDependencies": {
     "nx": "15.9.2",
     "@nrwl/workspace": "15.9.2"
